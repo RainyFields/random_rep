@@ -116,7 +116,7 @@ if command_exists conda ; then
         echo "Switching to Python 3.5 using Conda..."
 
         set +e
-        #  conda create -n A3C python=3.5
+        # conda create -n A3C python=3.5
         set -e
         conda activate A3C
         tput smul
