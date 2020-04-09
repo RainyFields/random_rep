@@ -118,7 +118,7 @@ if command_exists conda ; then
         set +e
         #  conda create -n A3C python=3.5
         set -e
-        source activate A3C
+        conda activate A3C
         tput smul
         echo "[TIP] New terminal tabs/windows must run 'source activate A3C' for Gym"
         echo "[TIP] Add the above command to your .bash_profile for auto-activation"
